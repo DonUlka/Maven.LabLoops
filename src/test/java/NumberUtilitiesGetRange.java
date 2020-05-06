@@ -214,7 +214,6 @@ class NumberUtilitiesGetRange implements TestWatcher {
 
       // : Then
       assertEquals(expected, actual);
-
    }
 
    private void testThreeArguments(String expected, int start, int stop, int step) {
@@ -231,7 +230,6 @@ class NumberUtilitiesGetRange implements TestWatcher {
 
       // : Then
       assertEquals(expected, actual);
-
    }
 
    private void testOddNumbers(String expected, int start, int stop) {
@@ -240,7 +238,6 @@ class NumberUtilitiesGetRange implements TestWatcher {
 
       // : Then
       assertEquals(expected, actual);
-
    }
 
 

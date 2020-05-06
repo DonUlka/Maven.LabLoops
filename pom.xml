@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.adalegion</groupId>
-    <artifactId>ioconsole</artifactId>
+    <artifactId>Maven.LabLoops</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -44,7 +44,6 @@
             <version>5.5.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
 </project>
