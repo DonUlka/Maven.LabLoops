@@ -28,3 +28,5 @@ hs_err_pid*
 .project
 .settings/
 target/
+src/main/resources/
+src/test/java/out/
