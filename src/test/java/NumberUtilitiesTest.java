@@ -3,7 +3,7 @@ import org.junit.jupiter.api.extension.TestWatcher;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NumberUtilitiesGetRange implements TestWatcher {
+class NumberUtilitiesTest implements TestWatcher {
 
    /**
     * @input: 3
@@ -194,7 +194,7 @@ class NumberUtilitiesGetRange implements TestWatcher {
 
    private void testExponentiationNumbers(String expected, int start, int stop, int exponent) {
       // : When
-      String actual = NumberUtilities.getExponentiations(start, stop, exponent);
+      String actual = NumberUtilities.getNumbersAt(start, stop, exponent);
 
       // : Then
       assertEquals(expected, actual);

@@ -56,7 +56,7 @@ public class NumberUtilities {
     * @param exponent : Potencia aplicada al cada número en el rango
     * @return : Rango de numeros elevados a una potencia empezando desde start (incluyente) hasta stop (NO incluyente)
     * */
-   public static String getExponentiations(int start, int stop, int exponent) {
+   public static String getNumbersAt(int start, int stop, int exponent) {
       return null;
    }
 
