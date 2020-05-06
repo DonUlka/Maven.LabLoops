@@ -97,7 +97,8 @@ class TriangleUtilitiesTest {
             "*\n" +
             "**\n" +
             "***\n" +
-            "****\n";
+            "****\n" +
+            "*****\n";
       String actual = TriangleUtilities.getSmallTriangle();
       assertEquals(expected, actual);
    }

@@ -1,12 +1,11 @@
 # NumberUtilities
 
-* Asegura que todos los test en la clase `NumberUtilitiesTest` pasen despues de completar los métodos en la clase `NumberUtilities`:
+* Asegura que todos los test en la clase `NumberUtilitiesTest` pasen después de completar los métodos en la clase `NumberUtilities`:
 
     * `String getRange(int start, int stop, int step)`
     * `String getEvenNumbers(int start, int stop)`
     * `String getOddNumbers(int start, int stop)`
     * `String getNumbersAt(int start, int stop, int step, int exponent)`
-
 
 <br><br>
 ## `String getRange(int stop)`
@@ -18,7 +17,7 @@
 
   ```
         // : Given
-        Integer stop = "5";
+        Integer stop = 5;
   
         // : When
         String outcome = NumberUtilities.getRange(stop);
@@ -41,8 +40,8 @@
 
   ```
         // : Given
-        Integer start = "2";
-        Integer stop = "15";
+        Integer start = 2;
+        Integer stop = 15;
   
         // : When
         String outcome = NumberUtilities.getRange(start, stop);
@@ -65,9 +64,9 @@
 
   ```
         // : Given
-        Integer start = "5";
-        Integer stop = "30";
-        Integer step = "5";
+        Integer start = 5;
+        Integer stop = 30;
+        Integer step = 5;
   
         // : When
         String outcome = NumberUtilities.getRange(start, stop, step);
@@ -90,8 +89,8 @@
 
   ```
         // : Given
-        Integer start = "5";
-        Integer stop = "15";
+        Integer start = 5;
+        Integer stop = 15;
   
         // : When
         String outcome = NumberUtilities.getEvenNumbers(start, stop, step);
@@ -114,9 +113,9 @@
 
   ```
         // : Given
-        Integer start = "2";
-        Integer stop = "6";
-        Integer exponent = "2";
+        Integer start = 2;
+        Integer stop = 6;
+        Integer exponent = 2;
   
         // : When
         String outcome = NumberUtilities.getNumbersAt(start, stop, step);
